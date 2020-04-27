@@ -1,0 +1,22 @@
+
+/* Turn off the shadow */
+.noshadow {
+	box-shadow: none;
+}
+
+/* ----- Nav Bar ----- */
+.menu-item {
+	font-size: 13px;
+	font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+	font-weight: 400;
+	color: inherit;
+}
+
+.apps-icon {
+	width:17px;
+	margin-right: 20px;
+}
+
+.avatar {
+	width:30px;
+}
