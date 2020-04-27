@@ -16,7 +16,56 @@
 	margin-right: 20px;
 }
 
-/*Doodle*/
+/* ----- Doodle ----- */
 .doodle {
 	margin-top: 100px;
+}
+
+
+/* ----- QuickLinks ----- */
+.card-deck-box {
+	width: 70%;
+}
+
+.quicklink-box {
+	width: 113px;
+	height: 113px;
+}
+
+.quicklink-box:hover {
+	background-color: #eee;
+}
+
+/* Image fixed size */
+.quicklink-box img {
+	width:45px;
+	padding: 10px;
+	margin-top: 22px;
+	/*Turn this off if the background has to be highlighted only on hover*/
+	background-color: #ddd;
+}
+
+/*Icon should be displayed only when the mouse hovers the box*/
+.quicklink-options {
+	display: none;
+}
+
+.quicklink-box:hover .quicklink-options {
+	display: block;
+	font-size: 12px;
+	color: #bbb;
+}
+
+.quicklink-box:hover img {
+	margin-top: 0px;
+	/*Turn this on if the background has to be highlighted only on hover*/
+	/*background-color: #ccc;*/
+}
+
+.quicklink-text {
+	font-size: 12px;
+	font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+	font-weight: 600;
+	color: #000;
+	text-decoration: none;
 }
