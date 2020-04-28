@@ -31,6 +31,7 @@
 
 /* ----- Search Bar ----- */
 .search-top-container {
+	margin-bottom: 25px;
 }
 
 .search-bar-rounded {
@@ -66,6 +67,43 @@
 
 
 /* ----- QuickLinks ----- */
+
+.quicklink-container {
+	width: 113px;
+	height: 113px;
+}
+
+.quicklink-container:hover {
+	background-color: #f4f4f4;
+}
+
+.quicklink-thumbnail-container img {
+	width:50px;
+	padding: 10px;
+	background-color: #e4e4e4;
+}
+
+.quicklink-icon-container {
+	text-align: right;
+	margin: 5px 5px 0px 0px;
+}
+
+.quicklink-thumbnail-container {
+	text-align: center;
+}
+
+.quicklink-text-container {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
 .card-deck-box {
 	width: 65%;
 }
