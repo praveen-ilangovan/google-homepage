@@ -17,14 +17,57 @@
 }
 
 /* ----- Doodle ----- */
-.doodle {
-	margin-top: 100px;
+.doodle-top-container {
+	margin-bottom: 25px;
+}
+
+.doodle-container {
+	display: flex;
+	height: 225px;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+
+/* ----- Search Bar ----- */
+.search-top-container {
+}
+
+.search-bar-rounded {
+	border-radius: 30px;
+	min-width: 410px;
+	width: 50%;
+}
+
+.search-bar-container {
+	display: flex;
+	height: 40px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.search-icon-container {
+	text-align: center;
+	padding: 0px 10px;
+}
+
+.search-field-container {
+	flex: 2;
+}
+
+.border-style-none {
+	border-style: none;
+}
+
+.mic-container {
+	text-align: center;
+	padding: 0px 10px;
 }
 
 
 /* ----- QuickLinks ----- */
 .card-deck-box {
-	width: 70%;
+	width: 65%;
 }
 
 .quicklink-box {
