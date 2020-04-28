@@ -68,6 +68,10 @@
 
 /* ----- QuickLinks ----- */
 
+.col-container {
+	margin-bottom: 4px;
+}
+
 .quicklink-container {
 	width: 113px;
 	height: 113px;
