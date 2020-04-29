@@ -133,3 +133,34 @@
 	color: #bbb;
 }
 
+/*Customize*/
+.customize-top-container {
+	margin-bottom: 20px;
+}
+
+.customize-rounded {
+	border-radius: 30px;
+	width: 180px;
+	margin-right: 20px;
+}
+
+.customize-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.customize-icon-container {
+	font-size: 20px;
+	color: blue;
+}
+
+.customize-text-container {
+/*	border: 1px blue solid;
+*/	font-size: 10px;
+	font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+	font-weight: 100;
+	color: blue;
+	text-decoration: none;
+	text-align: center;
+}
