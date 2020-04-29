@@ -68,25 +68,17 @@
 
 /* ----- QuickLinks ----- */
 
-/*.quicklinks-top-container {
-	border: 1px solid red;
-	width: 50%;
-	min-width: 410px;
-}*/
-
-
-/*.row {
-	border: 1px black dotted;
+.quicklinks-top-container {
+	margin: 0px 20%;
 }
 
 .col {
-	border: 1px red dotted;
-}*/
+	padding: 0px;
+}
 
 .col-container {
 	margin-bottom: 4px;
-/*	border: 1px solid green;
-*/	display: flex;
+	display: flex;
 	justify-content: center;
 }
 
