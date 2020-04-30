@@ -1,0 +1,20 @@
+// Base classes. Other classes extends from this one
+
+// Base classes
+.top-container {
+	margin-bottom: $space-between-containers;
+}
+
+ // Simple flex centered container
+.flex-centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// Mixins
+@mixin flex-container($align: center, $justify: center) {
+	display: flex;
+	align-items: $align;
+	justify-content: $justify;
+}

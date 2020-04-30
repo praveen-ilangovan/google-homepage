@@ -1,0 +1,10 @@
+
+# Ignore Sass related things.
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# tmp
+old.html
+resources/css/manual_style.css

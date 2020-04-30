@@ -1,0 +1,40 @@
+// Navbar menu item
+
+.navbar {
+	&-top-container {
+		@include flex-container();
+	}
+
+	&-menu-item {
+		padding: 0px 10px;
+	}
+
+	// Text items
+	&-text-container {
+		a:hover {
+			color: $font-color;
+			text-decoration: underline;
+		}
+	}
+
+	&-text-item {
+		font-size: 13px;
+		font-family: $font-stack;
+		font-weight: 350;
+		color: $font-color;;
+		text-decoration: none;
+	}
+
+	// Icon items
+	&-icon-container {
+		@include flex-container();
+
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+	}
+
+	&-icon-container:hover {
+		background-color: $hover-color;
+	}
+}
