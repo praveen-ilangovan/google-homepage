@@ -2,6 +2,16 @@
 
 .quicklinks {
 	@extend .top-container;
+	margin: 0 10%;
+
+	.col {
+		padding: 0px;
+	}
+
+	.col-container {
+		@include flex-container();
+		margin-bottom: 4px;
+	}
 
 	.card {
 		width: 110px;

@@ -59,7 +59,14 @@
     box-shadow: none !important; }
 
 .quicklinks {
-  border: 1px solid red; }
+  margin: 0 10%; }
+  .quicklinks .col {
+    padding: 0px; }
+  .quicklinks .col-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px; }
   .quicklinks .card {
     width: 110px; }
   .quicklinks-container div {
