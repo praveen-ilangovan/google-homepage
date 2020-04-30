@@ -1,4 +1,4 @@
-.top-container, .doodle, .searchbar {
+.top-container, .doodle, .searchbar, .customize {
   margin-bottom: 25px; }
 
 .flex-centered {
@@ -57,6 +57,23 @@
     outline: 0px !important;
     -webkit-appearance: none;
     box-shadow: none !important; }
+
+.customize .card {
+  border-radius: 30px;
+  width: 110px;
+  margin-right: 20px; }
+.customize .card:hover {
+  background-color: #cce6ff; }
+.customize-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px; }
+  .customize-container div {
+    padding: 0px 5px;
+    font-size: 14px;
+    font-family: "Segoe UI", "Roboto", arial, sans-serif;
+    color: #0066cc; }
 
 * {
   box-sizing: border-box;

@@ -1,0 +1,32 @@
+// Css for customize button
+
+$customizecolor: rgb(0, 102, 204);
+
+.customize {
+	@extend .top-container;
+
+	.card {
+		border-radius: $border-radius;
+
+		width: 110px;
+		margin-right: 20px;
+	}
+
+	.card:hover {
+		background-color: lighten($customizecolor, 50%);
+	}
+
+	&-container {
+		@include flex-container();
+
+		height: 30px;
+
+		div {
+			padding: 0px 5px;
+
+			font-size: 14px;
+			font-family: $font-stack;
+			color: $customizecolor;
+		}
+	}
+}
