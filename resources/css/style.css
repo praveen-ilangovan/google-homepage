@@ -59,7 +59,11 @@
     box-shadow: none !important; }
 
 .quicklinks {
-  margin: 0 10%; }
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .quicklinks-top-container {
+    width: 555px; }
   .quicklinks .col {
     padding: 0px; }
   .quicklinks .col-container {

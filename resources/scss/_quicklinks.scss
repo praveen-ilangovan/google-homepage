@@ -2,7 +2,11 @@
 
 .quicklinks {
 	@extend .top-container;
-	margin: 0 10%;
+	@include flex-container();
+	
+	&-top-container {
+		width: 555px;
+	}
 
 	.col {
 		padding: 0px;
