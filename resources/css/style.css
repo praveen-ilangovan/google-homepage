@@ -1,4 +1,4 @@
-.top-container, .doodle, .searchbar, .customize {
+.top-container, .doodle, .searchbar, .quicklinks, .customize {
   margin-bottom: 25px; }
 
 .flex-centered {
@@ -57,6 +57,50 @@
     outline: 0px !important;
     -webkit-appearance: none;
     box-shadow: none !important; }
+
+.quicklinks {
+  border: 1px solid red; }
+  .quicklinks .card {
+    width: 110px; }
+  .quicklinks-container div {
+    margin-bottom: 5px; }
+  .quicklinks-icon-container {
+    /* Displayed only when the mouse is on top of the parent container*/
+    display: none;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    /* Size and color ot the icon*/
+    font-size: 12px;
+    color: #bbb; }
+  .quicklinks-avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    margin-top: 28px; }
+  .quicklinks-avatar-container img {
+    width: 30px; }
+  .quicklinks-text-container {
+    text-align: center; }
+    .quicklinks-text-container a:hover {
+      color: #000; }
+  .quicklinks-text {
+    font-size: 12px;
+    font-family: "Segoe UI", "Roboto", arial, sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none; }
+  .quicklinks .card:hover {
+    background-color: #eee; }
+    .quicklinks .card:hover .quicklinks-icon-container {
+      display: block; }
+    .quicklinks .card:hover .quicklinks-avatar-container {
+      margin-top: 0px; }
 
 .customize .card {
   border-radius: 30px;

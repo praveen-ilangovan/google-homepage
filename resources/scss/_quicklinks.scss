@@ -1,0 +1,77 @@
+// Css for quicklinks
+
+.quicklinks {
+	@extend .top-container;
+
+	.card {
+		width: 110px;
+	}
+
+	&-container {
+		div {
+			margin-bottom: 5px;
+		}
+	}
+
+	&-icon-container {
+		/* Displayed only when the mouse is on top of the parent container*/
+		display: none;
+		text-align: right;
+
+		padding-top: 5px;
+		padding-right: 5px;
+
+		/* Size and color ot the icon*/
+		font-size: 12px;
+		color: #bbb;
+	}
+
+	&-avatar-container {
+		// Flex container
+		@include flex-container();
+
+		// Circular
+		@include circular(50px);
+
+		background-color: #e4e4e4;
+
+		margin: 0 auto;
+		margin-top: 28px;
+	}
+
+	&-avatar-container img {
+		width:30px;
+	}
+
+	&-text-container {
+		text-align: center;
+
+		a:hover {
+			color: $font-color;
+		}
+	}
+
+	&-text {
+		font-size: 12px;
+		font-family: $font-stack;
+		font-weight: 600;
+		color: $font-color;
+		text-decoration: none;
+	}
+
+	// Hover 
+	// On hover: Change the background-color
+	//			 Display the icon
+	//			 Adjust the margin of avatar
+	.card:hover {
+		background-color: $hover-color;
+
+		.quicklinks-icon-container {
+			display: block;
+		}
+
+		.quicklinks-avatar-container {
+			margin-top: 0px
+		}
+	}
+}

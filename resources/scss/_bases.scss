@@ -18,3 +18,9 @@
 	align-items: $align;
 	justify-content: $justify;
 }
+
+@mixin circular($size: 40px) {
+	border-radius: 50%;
+	width: $size;
+	height: $size;
+}
