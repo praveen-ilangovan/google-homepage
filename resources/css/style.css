@@ -1,4 +1,4 @@
-.top-container, .doodle-top-container {
+.top-container, .doodle, .searchbar {
   margin-bottom: 25px; }
 
 .flex-centered {
@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center; }
 
-.navbar-top-container {
+.navbar-container {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -31,15 +31,32 @@
 .navbar-icon-container:hover {
   background-color: #eee; }
 
-.doodle-top-container {
-  border: 1px solid red; }
-
 .doodle-container {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  border: 1px solid green;
   height: 225px; }
+
+.searchbar .card {
+  border-radius: 30px;
+  height: 40px;
+  width: 50%;
+  min-width: 450px; }
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .searchbar-container div {
+    text-align: center;
+    padding: 0px 10px; }
+.searchbar-field-container {
+  flex: 1; }
+  .searchbar-field-container input {
+    border-style: none; }
+  .searchbar-field-container input:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important; }
 
 * {
   box-sizing: border-box;

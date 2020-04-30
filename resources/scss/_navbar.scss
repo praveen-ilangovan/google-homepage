@@ -1,7 +1,7 @@
 // Navbar menu item
 
 .navbar {
-	&-top-container {
+	&-container {
 		@include flex-container();
 	}
 

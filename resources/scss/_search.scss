@@ -1,0 +1,39 @@
+// Css for search bar container
+
+.searchbar {
+	@extend .top-container;
+
+	.card {
+		border-radius: $border-radius;
+		height: 40px;
+
+		width: 50%;
+		min-width: 450px;
+	}
+
+	&-container {
+		@include flex-container();
+
+		div {
+			text-align: center;
+			padding: 0px 10px;
+		}
+	}
+
+	&-field-container {
+
+		flex: 1;
+
+		input {
+			border-style: none;
+		}
+
+		input:focus {
+			outline:0px !important;
+			-webkit-appearance:none;
+			box-shadow: none !important;
+		}
+
+	}
+}
+

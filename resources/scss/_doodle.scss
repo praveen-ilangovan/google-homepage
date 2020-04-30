@@ -1,12 +1,10 @@
 // Css for doodle container
 
-.doodle-top-container {
+.doodle {
 	@extend .top-container;
-	border: 1px solid red;
-}
 
-.doodle-container {
-	@include flex-container(flex-end);
-	border: 1px solid green;
-	height: 225px;
+	&-container {
+		@include flex-container(flex-end);
+		height: 225px;
+	}
 }
